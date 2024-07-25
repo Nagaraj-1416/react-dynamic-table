@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "product_filter": ["isEmpty", "tags", "Discount Percentange", "onsale"],
+      "variants": [
+        {
+          "id": 1,
+          "image_name": "Image 1",
+          "src": "/mens_photos/men image 1.jpg"
+        },
+        {
+          "id": 2,
+          "image_name": "Image 2",
+          "src": "/mens_photos/men image 2.jpg"
+        },
+        {
+          "id": 3,
+          "image_name": "Image 3",
+          "src": "/mens_photos/men image 3.jpg"
+        },
+        {
+          "id": 4,
+          "image_name": "Image 7",
+          "src": "/mens_photos/men image 7.jpg"
+        },
+        {
+          "id": 5,
+          "image_name": "Image 9",
+          "src": "/mens_photos/men image 9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "product_filter": ["tags", "onsale"],
+      "variants": [
+        {
+          "id": 1,
+          "image_name": "Image 4",
+          "src": "/mens_photos/men image 4.jpg"
+        },
+        {
+          "id": 2,
+          "image_name": "Image 5",
+          "src": "/mens_photos/men image 5.jpg"
+        },
+        {
+          "id": 3,
+          "image_name": "Image 6",
+          "src": "/mens_photos/men image 6.jpg"
+        },
+        {
+          "id": 4,
+          "image_name": "Image 8",
+          "src": "/mens_photos/men image 8.jpg"
+        },
+        {
+          "id": 5,
+          "image_name": "Image 10",
+          "src": "/mens_photos/men image 10.jpg"
+        }
+      ]
+    }
+  ],
+  "variantscount": 5
+}

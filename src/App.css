@@ -1,38 +1,77 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.Table-Container {
+  width: 87%;
+  min-height: 500px;
+  margin: auto;
+  margin-top: 3%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+.table-wrapper::-webkit-scrollbar {
+  height: 8px;
+}
+
+#products {
+  width: 100%;
+  min-width: 1000px;
+  min-height: 500px;
+}
+
+#products thead th,
+#products tbody td {
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+#products thead th.sticky-col,
+#products tbody td.sticky-col {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+#products tbody td.sticky-col:nth-child(2) {
+  left: 50px;
+}
+
+#products thead th {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#products tbody td img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  background-color: white;
+  color: black;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover {
+  background-color: #e9e9e9;
 }
 
-.App-link {
-  color: #61dafb;
+.hide-delete-button .delete-button {
+  visibility: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hide-delete-button:hover .delete-button {
+  visibility: visible;
 }
