@@ -1,3 +1,10 @@
+## Project Setup
+
+This project requires the following versions of Node.js and npm:
+
+- Node.js: v18.17.0
+- npm: 9.6.7
+
 ### `npm install`
 
 Installs the required node modules and dependencies for the project.
